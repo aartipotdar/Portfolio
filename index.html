@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Portfolio</title>
+    <link rel="stylesheet" href="styling.css">
+    <script src="https://kit.fontawesome.com/156d8bf114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="assets/images/download1.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Frontend Developer</p>
+                    <h1>Hi, I'm <span>Aarti</span><br> Potdar</h1>
+                    <p>Angular | Shopify | Wordpress</p>
+                </div>
+            </div>
+        </div>
+<!-- -----------about------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="assets/images/profile-removebg-preview.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Seeking a role to enhance and explore my technical knowledge and 1 year experience as Associate Software Engineer. I hold a MSc degree with specialization of computer science. 
+                    I am interested in Front End Development and Shopify Development. I am a self learner and hardworking individual. Always like to take up challenges and meet up deadlines under pressure.                
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web app interfaces</li>
+                        <li><span>Shopify / Wordpress</span><br>Designing Ecommerce websites</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Jan 2022 - Current</span><br>Associate Software Engineer at Eywa Solutions</li>
+                        <li><span>July 2021 - Dec 2021</span><br>Angular Developer at Eywa Solutions</li>
+                        <li><span>July 2021 - Dec 2021</span><br>Ionic App Development Support project</li>
+                        <li><span>Dec 2020 - Jun 2021</span><br>Internship in LinkedIn Marketing</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019 - 2021</span><br>MSc in Computer Science at MIT WPU, Pune</li>
+                        <li><span>2016 - 2019</span><br>BSc in Computer Science at Sangameshwar College, Solapur</li>
+                        <li><span>2014 - 2016</span><br>HSC at S.E.S. Jr College Solapur</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------------services------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design refers to the design of websites that are displayed on the internet.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>UX Design refers to the term User Experience Design, while UI Design stands for User Interface Design.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Ecommerce Website</h2>
+                <p>E-business websites can be online storefronts or online marketplaces.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------Portfolio----------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="assets/images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Angular Live Web App</h3>
+                    <p>This Web app created for Art Foundation. Worked on form for Competition using Angular and Firebase.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>GST Billing System</h3>
+                    <p>This Desktop app is created for GST Billing for shop owners using .NET framework.</p>
+                        <a href="https://github.com/aartipotdar/GST-Billing-System" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Shopify Theme Development Projects</h3>
+                    <p>Worked on Theme development in these projects using Liquid and Html/CSS.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="E:\portfolio\mywork.html" class="btn">See more</a>
+    </div>
+</div>
+<!-- ------------contact------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> aartipotdar98@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 9607165831</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/aarti-potdar-60668119a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/aartipotdar" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/______rt________/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="assets/images/Resume 2022.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Aarti. Made with <i class="fa-solid fa-heart"></i> by Aarti Potdar</p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById('sidemenu');
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwauuOVM9bP7uziOzl_BeBDLXtkUXPypw6xjbqE3ApsXDD7RIShFIKkxYTpxRXc-RJE0w/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+</html>
