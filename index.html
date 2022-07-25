@@ -121,16 +121,46 @@
                         <a href="https://github.com/aartipotdar/GST-Billing-System" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
-            <div class="work">
-                <img src="assets/images/work-3.png" alt="">
-                <div class="layer">
-                    <h3>Shopify Theme Development Projects</h3>
-                    <p>Worked on Theme development in these projects using Liquid and Html/CSS.</p>
-                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                <div class="work">
+                    <img src="assets/images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Shopify Theme Development Projects</h3>
+                        <p>Worked on Theme development in these projects using Liquid and Html/CSS.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+        </div>
+        <div id="collapse" class="show">
+                <div class="work-list">
+                    <div class="work">
+                        <img src="assets/images/work-1.png" alt="">
+                        <div class="layer">
+                            <h3>Rainbow Heal</h3>
+                            <p>This is Shopify Theme Development Live Project for healing.</p>
+                                <a href="https://rainbowheal.com/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="assets/images/work-2.png" alt="">
+                        <div class="layer">
+                            <h3>Cocoon Carpets</h3>
+                            <p>This is Shopify Theme Development Live Project for rugs.</p>
+                                <a href="https://www.cocooncarpets.com/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="assets/images/work-3.png" alt="">
+                        <div class="layer">
+                            <h3>KBL Project</h3>
+                            <p>This is support project worked on Ionic android/iOS app.</p>
+                                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <a href="E:\portfolio\mywork.html" class="btn">See more</a>
+        <!-- <a href="E:\portfolio\mywork.html" class="btn">See more</a> -->
+        <button onclick="toggle()" class="btn" id="btntext">More</button>
     </div>
 </div>
 <!-- ------------contact------------------ -->
@@ -209,6 +239,12 @@
         })
         .catch(error => console.error('Error!', error.message))
     })
+  </script>
+
+  <script>
+    function toggle() {
+       document.getElementById('collapse').classList.toggle("hide");
+    }
   </script>
 
     </body>

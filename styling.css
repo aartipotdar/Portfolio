@@ -251,6 +251,8 @@ nav ul li a:hover::after{
     border-radius: 6px;
     text-decoration: none;
     color: #fff;
+    background: none;
+    font-size: 16px;
     transition: background 0.5s;
 }
 .btn:hover{
@@ -321,6 +323,14 @@ form .btn2{
 }
 .copyright i{
     color: #ff004f;
+}
+#collapse{
+    transition: all 0.8s;
+}
+#collapse.hide{
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
 }
 /* -----------Mobile Responsive---------- */
 nav .fa-solid{
